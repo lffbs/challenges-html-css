@@ -1,52 +1,48 @@
-# 🚀 Desafios Módulo 1 - HTML5 e CSS3 (Curso em Vídeo)
+# 🚀 Desafios HTML5 e CSS3 - Curso em Vídeo
 
-Este repositório contém as soluções dos desafios **d005** e **d009** do primeiro módulo do curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/), ministrado pelo professor [Gustavo Guanabara](https://github.com/gustavoguanabara).
+Repositório com as soluções dos desafios **d005** e **d009** do curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/), ministrado pelo professor Gustavo Guanabara.
 
 ---
 
 ## 📌 Desafios Implementados
 
 ### 🎯 Desafio 005: Minhas Redes Sociais (`/d005`)
-Página de perfil pessoal para praticar a estruturação básica de elementos HTML.
-* **Objetivo:** Criar um perfil com foto, biografia simples e links direcionando para redes sociais.
-* **Conceitos aprendidos:**
-  * Inserção de imagens (`<img>`) e tratamento de texto alternativo (`alt`).
-  * Listas não ordenadas (`<ul>` e `<li>`).
-  * Links externos (`<a>`) utilizando os atributos `target="_blank"` e `rel="external"`.
-  * Inserção de ícones de redes sociais.
-
----
+Página de perfil pessoal com links para redes sociais e ícones representativos.
+* **Recursos:** Links externos (`target="_blank"`), listas (`<ul>`/`<li>`), imagens de perfil e ícones personalizados.
+* **Favicon:** Configurado via `favicon.ico`.
 
 ### 🎯 Desafio 009: Meus Vídeos Favoritos (`/d009`)
-Mini-site dinâmico composto por 5 páginas HTML interligadas para navegação entre vídeos.
-* **Objetivo:** Criar uma página principal (`index.html`) contendo thumbnails clicáveis que levam a páginas internas com vídeos incorporados do YouTube e botão de retorno.
-* **Conceitos aprendidos:**
-  * Navegação por links internos entre arquivos do projeto.
-  * Organização e gerenciamento da estrutura de pastas e caminhos de mídias.
-  * Incorporação de vídeos do YouTube utilizando a tag `<iframe>`.
-  * Criação de botões de navegação para retornar à página inicial.
+Site de navegação entre vídeos incorporados do YouTube usando thumbnails de alta performance.
+* **Recursos:** Navegação interna entre 5 páginas HTML, uso de `<iframe>` e formatos de imagem modernos (`.webp`).
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-* **HTML5:** Estruturação semântica e inclusão de mídias.
-* **CSS3:** Estilização e formatação visual básica.
-
----
-
-## 📂 Estrutura do Repositório
+## 📂 Estrutura de Pastas
 
 ```text
 .
 ├── d005/
-│   ├── index.html
-│   ├── foto-perfil.png
-│   └── imagens/
+│   ├── html/
+│   │   └── index.html
+│   └── img/
+│       ├── favicon/
+│       │   └── favicon.ico
+│       ├── icons/
+│       │   ├── git-icon.png
+│       │   ├── instagram-icon.png
+│       │   └── linkedin-icon.png
+│       └── foto-perfil.png
+│
 └── d009/
-    ├── index.html
-    ├── pagina-html.html
-    ├── pagina-js.html
-    ├── pagina-hardware.html
-    ├── pagina-python.html
-    └── imagens/
+    ├── html/
+    │   ├── index.html
+    │   ├── video1.html
+    │   ├── video2.html
+    │   ├── video3.html
+    │   └── video4.html
+    └── img/
+        ├── favicon/
+        ├── video1.webp
+        ├── video2.webp
+        ├── video3.webp
+        └── video4.webp
